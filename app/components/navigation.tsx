@@ -39,7 +39,7 @@ const Navigation = () => {
             }}><Link href="#about">About Me</Link></li>
             <li className='cursor-pointer' onClick={()=>{
                 setShowMenu(false)
-            }}><Link href="#service">Services</Link></li>
+            }}><Link href="#skills">Skills</Link></li>
             <li className='cursor-pointer' onClick={()=>{
                 setShowMenu(false)
             }}><Link href="#projects">Projects</Link></li>

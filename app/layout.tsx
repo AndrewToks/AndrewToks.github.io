@@ -27,7 +27,7 @@ export default function RootLayout({
 
         {children}
 
-    <footer className='bg-[#050C17] text-center py-12 px-0 mt-[7rem]'>
+    <footer className='bg-[#050C17] text-center py-12 px-0 mt-[7rem] flex flex-col justify-center items-center gap-5'>
       <a href="#" className=''>ANDREW</a>
       <ul className="flex gap-[2rem] flex-col lg:flex-row justify-center flex-wrap ">
         <li><a href="#">Home</a></li>
@@ -36,7 +36,7 @@ export default function RootLayout({
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <div className="flex gap-[2rem] justify-center">
+      <div className="flex gap-[2rem] justify-center btn btn-primary-outline">
         <a href="https://facebook.com"><FaFacebookF /></a>
         <a href="https://instagram.com"><FiInstagram /></a>
         <a href="https://twitter.com"><IoLogoTwitter /></a>

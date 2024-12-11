@@ -49,7 +49,7 @@ export default function Home(){
             <div className="border-b-[1px] border-slate-500"></div>
             <Header />
             {/* About Section */}
-            <div id="about" className="min-h-screen mb-2 max-w-[1150px] ml-auto mr-auto flex flex-col gap-8 p-5 justify-center">
+            <div id="about" className="min-h-screen mt-5 max-w-[1150px] ml-auto mr-auto flex flex-col gap-8 p-5 justify-center">
                 <h2 className="bg-[#a049f1] text-[12px] font-semibold py-3 px-5 max-w-fit rounded-full flex items-center gap-2"><FaStar className="animate animate-spin" />ABOUT ME</h2>
                 <h3 className="text-2xl">Hi,I'm Andrew Adetokunbo</h3>
                 <small>I'm a passionate Software Engineer with 2 years of experience creating high-performance web applications
