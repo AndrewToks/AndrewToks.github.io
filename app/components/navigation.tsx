@@ -15,10 +15,10 @@ const Navigation = () => {
         <ul className='flex font-semibold text-[16px] gap-3 items-center '>
            <Link href="/"><li>Home</li></Link> 
             <Link href="#about"><li>About Me</li></Link>
-            <Link href="/components/skills"><li>skills</li></Link>
-            <Link href="/components/contact"><li>Projects</li></Link>
+            <Link href="#skills"><li>skills</li></Link>
+            <Link href="#projects"><li>Projects</li></Link>
         </ul>
-        <button className='bg-white text-black text-sm max-w-fit px-3 py-2 hover:bg-[#a049f1] hover:text-white cursor-pointer'><Link href="/components/contact">Let's Chat</Link></button>
+        <button className='bg-white text-black text-sm max-w-fit px-3 py-2 hover:bg-[#a049f1] hover:text-white cursor-pointer'><Link href="#contact">Let's Chat</Link></button>
             </div>
 
             {/* Medium Screen */}
@@ -36,17 +36,17 @@ const Navigation = () => {
             }}><Link href="/" >Home</Link></li>
             <li className='cursor-pointer' onClick={()=>{
                 setShowMenu(false)
-            }}><Link href="/components/about">About Me</Link></li>
+            }}><Link href="#about">About Me</Link></li>
             <li className='cursor-pointer' onClick={()=>{
                 setShowMenu(false)
-            }}><Link href="/components/service">Services</Link></li>
+            }}><Link href="#service">Services</Link></li>
             <li className='cursor-pointer' onClick={()=>{
                 setShowMenu(false)
-            }}><Link href="/components/projects">Projects</Link></li>
+            }}><Link href="#projects">Projects</Link></li>
             <li className='bg-white text-black text-sm max-w-fit px-3 py-2
              hover:bg-[#a049f1] hover:text-white cursor-pointer' onClick={()=>{
                 setShowMenu(false)
-            }}><Link href="/components/contact">Let's Chat</Link></li>
+            }}><Link href="#contact">Let's Chat</Link></li>
         </ul>
         </div>}
         </div>
