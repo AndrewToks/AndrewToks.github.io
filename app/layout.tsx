@@ -42,7 +42,7 @@ export default function RootLayout({
         <a href="https://twitter.com"><IoLogoTwitter /></a>
       </div>
       <div className="">
-        <small>&copy; Adetokunbo Andrew. All rights reserved.</small>
+        <small>Adetokunbo Andrew. All rights reserved.</small>
       </div>
     </footer>
       </body>

@@ -10,7 +10,7 @@ const Header = () => {
             <small>I'm a Software Engineer with expertise in Javascript,React,Nextjs,NodeJs,Expressjs and Tailwindcss.</small>
             <div className="flex gap-3">
                 <button className="btn btn-primary flex gap-1 items-center"><FaUser />Hire Me</button>
-                <button className="btn btn-primary-outline"><a href="./resume/resume.pdf" download="ADETOKUNBO-ANDREW-RESUME.pdf" className=" flex gap-2 items-center"><FaBook />Download CV</a></button>
+                <button className="btn btn-primary-outline"><a href="resume.pdf" download="ADETOKUNBO-ANDREW-RESUME.pdf" className=" flex gap-2 items-center"><FaBook />Download CV</a></button>
             </div>
             <div className="flex gap-10">
                 <div className="flex flex-col items-center">
