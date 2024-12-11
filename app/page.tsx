@@ -49,7 +49,7 @@ export default function Home(){
             <div className="border-b-[1px] border-slate-500"></div>
             <Header />
             {/* About Section */}
-            <div className="min-h-screen mb-2 max-w-[1150px] ml-auto mr-auto flex flex-col gap-8 p-5 justify-center">
+            <div id="about" className="min-h-screen mb-2 max-w-[1150px] ml-auto mr-auto flex flex-col gap-8 p-5 justify-center">
                 <h2 className="bg-[#a049f1] text-[12px] font-semibold py-3 px-5 max-w-fit rounded-full flex items-center gap-2"><FaStar className="animate animate-spin" />ABOUT ME</h2>
                 <h3 className="text-2xl">Hi,I'm Andrew Adetokunbo</h3>
                 <small>I'm a passionate Software Engineer with 2 years of experience creating high-performance web applications
@@ -87,7 +87,7 @@ export default function Home(){
                 </div>
             </div>
             {/* Skills */}
-            <div className="min-h-screen mb-8 max-w-[1150px] ml-auto mr-auto flex flex-col gap-8 p-5 items-center justify-center">
+            <div id="skills" className="min-h-screen mb-8 max-w-[1150px] ml-auto mr-auto flex flex-col gap-8 p-5 items-center justify-center">
                 <h2 className="bg-[#a049f1] text-[12px] font-semibold py-3 px-5 max-w-fit rounded-full flex items-center gap-2"><FaStar className="animate animate-spin" />SKILLS</h2>
                 <h3 className="text-2xl">My Skills</h3>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
@@ -177,7 +177,7 @@ export default function Home(){
                 </div>
             </div>
              {/* Projects */}
-            <div className="min-h-screen mb-2 max-w-[1150px] ml-auto mr-auto flex flex-col gap-8 p-5 items-center justify-center">
+            <div id="projects" className="min-h-screen mb-2 max-w-[1150px] ml-auto mr-auto flex flex-col gap-8 p-5 items-center justify-center">
                 <h2 className="bg-[#a049f1] text-[12px] font-semibold py-3 px-5 max-w-fit rounded-full flex items-center gap-2"><FaStar className="animate animate-spin" />PROJECTS</h2>
                 <h3 className="text-2xl">Projects I have Done</h3>
                 <small>I build,develop and create Softwares.</small>
@@ -195,6 +195,19 @@ export default function Home(){
                     })}
                 </div>
             </div>
+
+            {/* Contact Section */}
+            <div id="contact" className='max-w-[1150px] ml-auto mr-auto flex flex-col min-h-screen justify-center items-center p-5'>
+        <form className='max-w-[900px] w-full h-full flex flex-col gap-6'>
+            <h1 className='text-xl text-center'>Contact Me by Sending Me An Email</h1>
+            <div className='flex flex-col gap-5 '>
+            <input type="text" placeholder='Your Full Name' className='w-full h-14 px-2 outline-none bg-slate-900 border-[1px] rounded-md border-slate-950' />
+            <input type="Email" placeholder='Your Email'  className='w-full h-14 px-2 outline-none bg-slate-900 border-[1px] rounded-md border-slate-950'/>
+            </div>
+            <textarea name="" id="" placeholder='Your Message' className='w-full h-36 outline-none bg-slate-900 text-white px-2 py-2 border-[1px] border-slate-950 rounded-md'></textarea>
+            <button className='btn btn-primary w-full'>Send Message</button>
+        </form>
+    </div>
         </main>
     )
 }
