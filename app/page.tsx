@@ -1,5 +1,5 @@
 import Header from "./components/header"
-import {FaStar,FaFacebook,FaWhatsapp,FaLinkedin,FaTwitter,FaCode} from 'react-icons/fa'
+import {FaStar,FaFacebook,FaWhatsapp,FaLinkedin,FaTwitter,FaCode} from "react-icons/fa"
 import Link from "next/link"
 
 const projects =[
@@ -188,7 +188,7 @@ export default function Home(){
                     <h1 className="flex flex-col">{project.title}</h1>
                 <small>{project.description}</small>
                 <div className="flex flex-row gap-3">
-                    <button className='btn btn-primary '><a href={project.more}>See More</a></button>
+                    <button className="btn btn-primary"><a href={project.more}>See More</a></button>
                 </div>
                 </article>
                         )
