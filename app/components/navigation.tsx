@@ -18,7 +18,7 @@ const Navigation = () => {
             <Link href="#skills"><li>skills</li></Link>
             <Link href="#projects"><li>Projects</li></Link>
         </ul>
-        <button className="bg-white text-black text-sm max-w-fit px-3 py-2 hover:bg-[#a049f1] hover:text-white cursor-pointer"><Link href="#contact">Let"s Chat</Link></button>
+        <button className="bg-white text-black text-sm max-w-fit px-3 py-2 hover:bg-[#a049f1] hover:text-white cursor-pointer"><Link href="#contact">Let's Chat</Link></button>
             </div>
 
             {/* Medium Screen */}
