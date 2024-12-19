@@ -5,14 +5,22 @@
 html{
   scroll-behavior: smooth;
 }
+body{
+  background: #020617;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
 @layer base  {
-  body{
-    @apply bg-slate-950 text-white relative
-  }
   button{
     @apply transition-all duration-100 hover:scale-110
   }
-  small{
+  small,h3{
     @apply text-slate-500 text-[15px]
   }
   
@@ -27,5 +35,8 @@ html{
   }
   .btn-primary-outline{
     @apply border border-slate-700 text-white font-semibold
+  }
+  .image-name{
+    @apply bg-orange-200 text-orange-500 px-2 py-3 max-w-fit text-2xl
   }
 }

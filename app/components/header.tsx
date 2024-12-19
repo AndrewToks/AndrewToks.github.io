@@ -1,33 +1,59 @@
-import React from "react"
-import Image from "next/image"
-import {FaUser,FaBook} from "react-icons/fa"
-const Header = () => {
-  return (
-    <div className="mt-24 max-w-[1150px] flex flex-col lg:flex-row gap-10 p-5 ml-auto mr-auto  items-center">
-        <div className="flex flex-col gap-6">
-        <h3 className="bg-orange-200 text-orange-500 max-w-fit p-2">Hi, I'm Andrew Adetokunbo</h3>
-        <h1 className="text-4xl">Software Engineer</h1>
-            <small>I'm a Software Engineer with expertise in Javascript,React,Nextjs,NodeJs,Expressjs and Tailwindcss.</small>
-            <div className="flex gap-3">
-                <button className="btn btn-primary flex gap-1 items-center"><FaUser />Hire Me</button>
-                <button className="btn btn-primary-outline"><a href="resume.pdf" download="ADETOKUNBO-ANDREW-RESUME.pdf" className=" flex gap-2 items-center"><FaBook />Download CV</a></button>
-            </div>
-            <div className="flex gap-10">
-                <div className="flex flex-col items-center">
-                <h3 className="text-3xl">15+</h3>
-                <small>Projects Done</small>
+{/* <section>
+            <main className="  flex flex-col gap-8 p-5">
+                <h2 className="bg-[#a049f1] text-[12px] font-semibold py-3 px-5 max-w-fit rounded-full flex items-center gap-2"><FaStar className="animate animate-spin" />SKILLS</h2>
+                <h3 className="text-2xl">My Skills</h3>
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+                <article className="flex flex-col px-3 py-2 h-56 bg-[#050C17] border-[1px] border-slate-900 hover:bg-slate-950 cursor-pointer rounded-md gap-3">
+                    <h2>Frontend Programming Languages</h2>
+                    <h4 className="bg-orange-200 text-orange-500 max-w-fit px-2 py-1 text-[12px]">TECH STACK</h4>
+                    <ul><li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>REST API</li>
+                    </ul>
+                </article>
+                <article className="flex flex-col px-3 py-2 h-56 bg-[#050C17] border-[1px] border-slate-900 hover:bg-slate-950 cursor-pointer rounded-md gap-3">
+                    <h2>Backend Programming Languages</h2>
+                    <h4 className="bg-orange-200 text-orange-500 max-w-fit px-2 py-1 text-[12px]">TECH STACK</h4>
+                    <ul>
+                        <li>Javascript</li>
+                    </ul>
+                </article>
+                <article className="flex flex-col px-3 py-2 h-56 bg-[#050C17] border-[1px] border-slate-900 hover:bg-slate-950 cursor-pointer rounded-md gap-3">
+                    <h2>Frameworks and Libraries</h2>
+                    <h4 className="bg-orange-200 text-orange-500 max-w-fit px-2 py-1 text-[12px]">TECH STACK</h4>
+                    <ul>
+                        <li>NodeJs</li>
+                        <li>ExpressJs</li>
+                        <li>React</li>
+                        <li>Next</li>
+                        <li>Tailwind</li>
+                    </ul>
+                </article>
+                <article className="flex flex-col px-3 py-2 h-52 bg-[#050C17] border-[1px] border-slate-900 hover:bg-slate-950 cursor-pointer rounded-md gap-3">
+                    <h2>Tools and Technologies</h2>
+                    <h4 className="bg-orange-200 text-orange-500 max-w-fit px-2 py-1 text-[12px]">TECH STACK</h4>
+                    <ul>
+                        <li>Git and Github</li>
+                    </ul>
+                </article>
+                <article className="flex flex-col px-3 py-2 h-52 bg-[#050C17] border-[1px] border-slate-900 hover:bg-slate-950 cursor-pointer rounded-md gap-3">
+                    <h2>Methodologies and Soft Skills</h2>
+                    <h4 className="bg-orange-200 text-orange-500 max-w-fit px-2 py-1 text-[12px]">TECH STACK</h4>
+                    <ul>
+                        <li>Teamwork</li>
+                        <li>Effective Communication</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </article>
+                <article className="flex flex-col px-3 py-2 h-52 bg-[#050C17] border-[1px] border-slate-900 hover:bg-slate-950 cursor-pointer rounded-md gap-3">
+                    <h2>DataBase</h2>
+                    <h4 className="bg-orange-200 text-orange-500 max-w-fit px-2 py-1 text-[12px]">TECH STACK</h4>
+                    <ul>
+                        <li>MongoDB</li>
+                        <li>Firebase</li>
+                    </ul>
+                </article>
                 </div>
-                <div className="flex flex-col items-center">
-                <h3 className="text-3xl">1+</h3>
-                <small>Years Experience</small>
-                </div>
-            </div>
-        </div>
-        <div>
-            <Image src="/busand.jpg" alt="Picture" width={500} height={500}></Image>
-        </div>
-    </div>
-  )
-}
-
-export default Header
+            </main>
+            </section> */}
